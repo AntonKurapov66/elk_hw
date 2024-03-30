@@ -1,8 +1,7 @@
 # Домашнее задание к занятию "ELK" - `Курапов Антон`
 
 ## Задание 1. Elasticsearch
-### Установите и запустите Elasticsearch, после чего поменяйте параметр cluster_name на случайный.
-### Приведите скриншот команды 'curl -X GET 'localhost:9200/_cluster/health?pretty', сделанной на сервере с установленным Elasticsearch. Где будет виден нестандартный cluster_name.
+  * Установите и запустите Elasticsearch, после чего поменяйте параметр cluster_name на случайный. (Приведите скриншот команды 'curl -X GET 'localhost:9200/_cluster/health?pretty', сделанной на сервере с установленным Elasticsearch. Где будет виден нестандартный cluster_name.) 
 
 ## Задание 2. Kibana
 Установите и запустите Kibana.
