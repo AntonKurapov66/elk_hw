@@ -12,18 +12,40 @@
  ![alt text](https://github.com/AntonKurapov66/elk_hw/blob/main/img/01_1.PNG)
 
 ## Задание 2. Kibana
-Установите и запустите Kibana.
+  * Установите и запустите Kibana.(Приведите скриншот интерфейса Kibana на странице http://<ip вашего сервера>:5601/app/dev_tools#/console, где будет выполнен запрос GET /_cluster/health?pretty)
+  
+  * Запущенная Kibana
 
-Приведите скриншот интерфейса Kibana на странице http://<ip вашего сервера>:5601/app/dev_tools#/console, где будет выполнен запрос GET /_cluster/health?pretty.
+ ![alt text](https://github.com/AntonKurapov66/elk_hw/blob/main/img/02_0.PNG)
+
+   * Скрин из Kibana 
+
+ ![alt text](https://github.com/AntonKurapov66/elk_hw/blob/main/img/02_1.PNG)
+
 
 ## Задание 3. Logstash
-Установите и запустите Logstash и Nginx. С помощью Logstash отправьте access-лог Nginx в Elasticsearch.
+  * Установите и запустите Logstash и Nginx. С помощью Logstash отправьте access-лог Nginx в Elasticsearch.(Приведите скриншот интерфейса Kibana, на котором видны логи Nginx.)
 
-Приведите скриншот интерфейса Kibana, на котором видны логи Nginx.
+  * Скрин конф.файла /etc/logstash/conf.d/nginx.conf
+
+ ![alt text](https://github.com/AntonKurapov66/elk_hw/blob/main/img/03_0.PNG)
+
+   * Скрин из Kibana с логами nginx
+
+ ![alt text](https://github.com/AntonKurapov66/elk_hw/blob/main/img/03_1.PNG)
+
 
 ## Задание 4. Filebeat.
-Установите и запустите Filebeat. Переключите поставку логов Nginx с Logstash на Filebeat.
+  * Установите и запустите Filebeat. Переключите поставку логов Nginx с Logstash на Filebeat.(Приведите скриншот интерфейса Kibana, на котором видны логи Nginx, которые были отправлены через Filebeat.)
 
-Приведите скриншот интерфейса Kibana, на котором видны логи Nginx, которые были отправлены через Filebeat.
-  
+   * Скрин конф.файла /etc/filebeat/filebeat.yml
+
+ ![alt text](https://github.com/AntonKurapov66/elk_hw/blob/main/img/04_0_0.PNG)
+
+ ![alt text](https://github.com/AntonKurapov66/elk_hw/blob/main/img/04_0_1.PNG)
+
+   * Скрин из Kibana с логами nginx отправленные через Filebeat
+
+ ![alt text](https://github.com/AntonKurapov66/elk_hw/blob/main/img/04_1.PNG)
+
  
