@@ -5,11 +5,11 @@
 
   * Запущенный  Elasticsearch 
 
- ![alt text](https://github.com/AntonKurapov66/elk-hw/blob/main/img/01_0.PNG)
+ ![alt text](https://github.com/AntonKurapov66/elk_hw/blob/main/img/01_0.PNG)
 
   * Скрин команды проверки 
 
- ![alt text](https://github.com/AntonKurapov66/elk-hw/blob/main/img/01_1.PNG)
+ ![alt text](https://github.com/AntonKurapov66/elk_hw/blob/main/img/01_1.PNG)
 
 ## Задание 2. Kibana
 Установите и запустите Kibana.
